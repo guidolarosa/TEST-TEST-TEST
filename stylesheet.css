@@ -1,0 +1,195 @@
+html  {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+
+body  {
+  margin:0;
+  color: white;
+  font-family: Helvetica;
+  background-image: url(http://www.veomoda.com/wp-content/uploads/2016/01/Gourmet-Lamb-Medium.jpg);
+  background-position: center;
+  background-size: 1280px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  box-shadow: inset 0 0 8em 0.5em #000;
+  height:100%;
+  overflow: auto;
+  min-width: 1080px;
+}
+
+nav {
+  float:left;
+  display: inline-block;
+  width: 620px;
+  margin:50px 0px;
+  font-size: 15px;
+}
+
+ul  {
+  list-style: none;
+  text-align: center;
+}
+
+ul li {
+  margin: 0 12px;
+  float: left;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+ .wrapper  {
+   margin: 0px 2% 0 13%;
+   width: 290px;
+   height: 100%;
+   min-width: 290px;
+   text-align: center;
+   display: inline-block;
+   float:left;
+ }
+
+ .header-block {
+   background-color: #1e1e1e;
+   height: 130px;
+   vertical-align:middle;
+   border-bottom: 1px solid white;
+   border-image: linear-gradient(to right, black, white) 1 100%;
+   margin-bottom: 1px;
+ }
+
+h1  {
+  padding: 40px 0px 20px;
+  font-family:'Great Vibes';
+  font-size: 45px;
+  margin: 0px;
+}
+
+hr  {
+  width: 80%;
+  height: 1px;
+  margin: 0 auto;
+  background-color:gray;
+  color:gray;
+  border:0;
+}
+
+h2  {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 19px;
+  margin: 0px;
+}
+main p {
+  padding: 20px;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 20px;
+  margin: 20px;
+}
+
+.main-content {
+  background-color: #1e1e1e;
+}
+
+.data-block {
+  width:80%;
+  margin: 0px auto ;
+  border: 1px gray solid;
+}
+
+.data-block p {
+  margin:0px;
+  text-align: justify;
+}
+
+.data-block hr  {
+  width: 20%;
+  background-color: white;
+}
+
+address {
+  font-size: 12px;
+  padding-bottom: 30px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.footer {
+  background-color: #1e1e1e;
+  padding-top: 180px;
+}
+
+.footer hr {
+  top: 10px;
+}
+.footer-address  {
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.social-network {
+  width: 25px;
+  height:25px;
+  display: inline-block;
+  margin: 0 2px;
+  background-color: gray;
+}
+
+#trademark  {
+  color: gray;
+  font-size: 13px;
+  text-align: center;
+}
+
+#home {
+  height:400px;
+  width:30%;
+  float:left;
+  margin: 0px 100px;
+  background-color: #1e1e1e;
+  text-align: center;
+  opacity: 0;
+  transition:all 8s ease-in-out;
+}
+
+#home:target {
+  height:450px;
+  width:40%;
+  height:450px;
+  width:40%;
+  margin: 0px 100px;
+  background-color: #1e1e1e;
+  text-align: center;
+  opacity: 1;
+}
+
+#home img  {
+  float:right;
+  width:200px;
+  display: inline-block;
+  position: relative;
+  top:75px;
+  right: 25px;
+}
+
+#home .paragraph {
+  display: inline-block;
+  width:300px;
+}
+
+.paragraph p {
+  margin:30px 40px;
+  padding:0;
+}
